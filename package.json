@@ -1,0 +1,17 @@
+{
+  "name": "crud-product",
+  "version": "1.0.0",
+  "description": "SAP HANA DB Cloud CRUD Application using Node JS Express | CAP in SAP BAS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "John Eswin Nizar",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/hana-client": "^2.20.15",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0"
+  }
+}
