@@ -5,7 +5,9 @@ $>npm install express body-parser hbs @sap/hana-client --save
 to run app in sap bas, change script in package.json:
 
   "scripts": {
+  
     "start": "node index.js"
+    
   },
 
 to run app in vs code (your local pc):
