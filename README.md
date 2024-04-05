@@ -2,7 +2,7 @@ Install node js module in sap bas terminal:
 
 $>npm install express body-parser hbs @sap/hana-client --save
 
-to run app in sap bas, change script in package.json:
+to run app in sap bas (npm run start), change script in package.json:
 
   "scripts": {
   
