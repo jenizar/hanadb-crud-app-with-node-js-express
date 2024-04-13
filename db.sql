@@ -4,7 +4,8 @@ CREATE COLUMN TABLE crud_db.product(
 	product_id CHAR(5) PRIMARY KEY,
 	product_name CHAR(40) NOT NULL,
 	product_category CHAR(30) NOT NULL
-	
+);
+
 INSERT INTO crud_db.product VALUES('10059', 'Mineral water 1 L', 'Beverages');
 INSERT INTO crud_db.product VALUES('10047', 'Orange syrup 700 mL', 'Beverages');
 INSERT INTO crud_db.product VALUES('10072', 'Strawberry juice 350 mL', 'Beverages');
